@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="アボレーダー">
+<meta name="apple-mobile-web-app-title" content="アボちゃん">
 <meta name="theme-color" content="#0a1a0a">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="application-name" content="アボレーダー">
+<meta name="application-name" content="アボちゃん">
 <meta name="description" content="カメラをかざすだけでアボカドの食べ頃を教えてくれるアプリ">
-<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22%E3%82%A2%E3%83%9C%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%22%2C%22short_name%22%3A%22%E3%82%A2%E3%83%9C%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%22%2C%22description%22%3A%22%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E3%81%8B%E3%81%96%E3%81%99%E3%81%A0%E3%81%91%E3%81%A7%E3%82%A2%E3%83%9C%E3%82%AB%E3%83%89%E3%81%AE%E9%A3%9F%E3%81%B9%E9%A0%83%E3%82%92%E5%88%A4%E5%AE%9A%22%2C%22start_url%22%3A%22.%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230a1a0a%22%2C%22theme_color%22%3A%22%230a1a0a%22%2C%22orientation%22%3A%22portrait%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%253D%2527http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2527%2520viewBox%253D%25270%25200%2520512%2520512%2527%253E%253Crect%2520width%253D%2527512%2527%2520height%253D%2527512%2527%2520rx%253D%2527100%2527%2520fill%253D%2527%25230a1a0a%2527%252F%253E%253Ctext%2520y%253D%2527.9em%2527%2520font-size%253D%2527400%2527%253E%25F0%259F%25A5%2591%253C%252Ftext%253E%253C%252Fsvg%253E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%2C%22purpose%22%3A%22any%20maskable%22%7D%5D%7D">
-<title>🥑 アボレーダー</title>
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22%E3%82%A2%E3%83%9C%E3%81%A1%E3%82%83%E3%82%93%22%2C%22short_name%22%3A%22%E3%82%A2%E3%83%9C%E3%81%A1%E3%82%83%E3%82%93%22%2C%22description%22%3A%22%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E3%81%8B%E3%81%96%E3%81%99%E3%81%A0%E3%81%91%E3%81%A7%E3%82%A2%E3%83%9C%E3%82%AB%E3%83%89%E3%81%AE%E9%A3%9F%E3%81%B9%E9%A0%83%E3%82%92%E5%88%A4%E5%AE%9A%22%2C%22start_url%22%3A%22.%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%230a1a0a%22%2C%22theme_color%22%3A%22%230a1a0a%22%2C%22orientation%22%3A%22portrait%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%253D%2527http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2527%2520viewBox%253D%25270%25200%2520512%2520512%2527%253E%253Crect%2520width%253D%2527512%2527%2520height%253D%2527512%2527%2520rx%253D%2527100%2527%2520fill%253D%2527%25230a1a0a%2527%252F%253E%253Ctext%2520y%253D%2527.9em%2527%2520font-size%253D%2527400%2527%253E%25F0%259F%25A5%2591%253C%252Ftext%253E%253C%252Fsvg%253E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%2C%22purpose%22%3A%22any%20maskable%22%7D%5D%7D">
+<title>🥑 アボちゃん</title>
 <style>
 :root {
   --green:   #44cc22;
@@ -250,9 +250,9 @@ html, body {
     <span class="sparkle" style="top:78%;right:16%;animation-delay:0.4s">✦</span>
     <span class="sparkle" style="top:40%;left:6%;animation-delay:1.5s;font-size:8px">✦</span>
     <div id="home-logo">🥑</div>
-    <div id="home-title">アボレーダー</div>
+    <div id="home-title">アボちゃん</div>
     <div id="home-sub">AvoRadar</div>
-    <button id="start-btn" onclick="startCamera()">カメラをかざす</button>
+    <button id="start-btn" onclick="startCamera()">はじめる</button>
     <div id="home-disclaimer">※判定結果はアボちゃんの気分による</div>
     <div id="install-hint">
       <button id="install-hint-close" onclick="document.getElementById('install-hint').classList.remove('show')" aria-label="閉じる">✕</button>
@@ -314,7 +314,6 @@ html, body {
         <ellipse cx="38" cy="58" rx="17" ry="22" fill="#3a7022" opacity="0.4"/>
         <ellipse cx="50" cy="90" rx="27" ry="35" fill="#c0e068"/>
         <ellipse cx="50" cy="104" rx="17" ry="18" fill="#8a3e0c"/>
-        <!-- serious face — slight squint -->
         <ellipse cx="39" cy="98" rx="9" ry="8" fill="white"/>
         <ellipse cx="61" cy="98" rx="9" ry="8" fill="white"/>
         <ellipse cx="39.5" cy="99.5" rx="6" ry="6" fill="#1a3a00"/>
@@ -323,12 +322,9 @@ html, body {
         <ellipse cx="62" cy="99" rx="3.5" ry="3.5" fill="#050e00"/>
         <ellipse cx="42" cy="96.5" rx="2" ry="2" fill="white"/>
         <ellipse cx="64" cy="96.5" rx="2" ry="2" fill="white"/>
-        <!-- serious brows - flat -->
         <path d="M31 91 L47 91" fill="none" stroke="#3a1a00" stroke-width="2.5" stroke-linecap="round"/>
         <path d="M53 91 L69 91" fill="none" stroke="#3a1a00" stroke-width="2.5" stroke-linecap="round"/>
-        <!-- neutral mouth -->
         <path d="M40 112 L60 112" fill="none" stroke="#3a1a00" stroke-width="2" stroke-linecap="round"/>
-        <!-- sweat drop -->
         <path d="M78 85 Q81 79 84 85 Q81 92 78 85Z" fill="#88ccff"/>
         <path d="M50 34 Q53 24 58 18" fill="none" stroke="#5a2e08" stroke-width="3.5" stroke-linecap="round"/>
         <ellipse cx="61" cy="16" rx="10" ry="6" fill="#3a7a20" transform="rotate(-20 61 16)"/>
@@ -357,15 +353,13 @@ html, body {
 </div>
 
 <script>
-// detect platform
 var isIOS     = /iphone|ipad|ipod/i.test(navigator.userAgent);
 var isAndroid = /android/i.test(navigator.userAgent);
 var isStandalone = window.navigator.standalone
                 || window.matchMedia('(display-mode: standalone)').matches;
 
-// show install hint for first-time browser visitors
 (function(){
-  if (isStandalone) return; // already installed
+  if (isStandalone) return;
   var seen = false;
   try { seen = !!localStorage.getItem('avo_hint_seen'); } catch(e){}
   if (seen) return;
@@ -378,11 +372,10 @@ var isStandalone = window.navigator.standalone
   } else if (isAndroid) {
     body.innerHTML = '① 右上の <strong style="color:#88aaff">︙ メニュー</strong> をタップ<br>② 「<strong style="color:#88aaff">ホーム画面に追加</strong>」または<br>　「<strong style="color:#88aaff">アプリをインストール</strong>」を選ぶ';
   } else {
-    return; // PC は表示しない
+    return;
   }
   setTimeout(function(){ hint.classList.add('show'); }, 1200);
 
-  // Android: listen for beforeinstallprompt
   window.addEventListener('beforeinstallprompt', function(e){
     e.preventDefault();
     var btn = document.createElement('button');
@@ -461,15 +454,40 @@ function showScreen(id) {
 
 async function startCamera() {
   showScreen('camera');
-  try {
-    stream = await navigator.mediaDevices.getUserMedia({
-      video: { facingMode: 'environment', width: { ideal: 1280 }, height: { ideal: 720 } },
-      audio: false
-    });
-    document.getElementById('video').srcObject = stream;
-  } catch(e) {
-    document.getElementById('no-cam').classList.add('show');
+
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+    showCamError('このブラウザはカメラに対応していません。SafariでURLを直接開いてください。');
+    return;
   }
+
+  var constraints = [
+    { video: { facingMode: { exact: 'environment' } }, audio: false },
+    { video: { facingMode: 'environment' }, audio: false },
+    { video: true, audio: false }
+  ];
+
+  for (var i = 0; i < constraints.length; i++) {
+    try {
+      stream = await navigator.mediaDevices.getUserMedia(constraints[i]);
+      var video = document.getElementById('video');
+      video.srcObject = stream;
+      await video.play();
+      return;
+    } catch(e) {
+      if (i === constraints.length - 1) {
+        var msg = e.name === 'NotAllowedError'
+          ? 'カメラの使用が許可されていません。\n設定 → Safari → カメラ → 許可する\nを確認してください。'
+          : 'カメラを起動できませんでした（' + e.name + '）。\nSafariのアドレスバーからURLを直接開いてみてください。';
+        showCamError(msg);
+      }
+    }
+  }
+}
+
+function showCamError(msg) {
+  var el = document.getElementById('no-cam');
+  el.querySelector('div:nth-child(2)').innerText = msg;
+  el.classList.add('show');
 }
 
 function toggleFlash() {
@@ -533,7 +551,6 @@ function analyzeFrame(ctx, w, h) {
     idx = Math.floor(Math.random() * 3) + 1;
   }
 
-  // small random nudge for fun
   var nudge = Math.random();
   if (nudge < 0.12) idx = Math.max(0, idx - 1);
   else if (nudge > 0.88) idx = Math.min(4, idx + 1);
@@ -591,22 +608,17 @@ function buildAvoSvg(stage) {
     mouth    = '<path d="M40 115 Q45 111 50 115 Q55 119 60 115" fill="none" stroke="#3a2000" stroke-width="2" stroke-linecap="round"/>';
     extras   = '<path d="M80 82 Q83 76 86 82 Q83 89 80 82Z" fill="#88ccff"/><path d="M82 95 Q84 90 86 95 Q84 100 82 95Z" fill="#88ccff"/>';
   } else {
-    // dead (rotten)
     leftEye  = '<ellipse cx="38" cy="99" rx="9" ry="9" fill="white" opacity="0.85"/><line x1="31" y1="92" x2="45" y2="106" stroke="#333" stroke-width="2.5" stroke-linecap="round"/><line x1="45" y1="92" x2="31" y2="106" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>';
     rightEye = '<ellipse cx="62" cy="99" rx="9" ry="9" fill="white" opacity="0.85"/><line x1="55" y1="92" x2="69" y2="106" stroke="#333" stroke-width="2.5" stroke-linecap="round"/><line x1="69" y1="92" x2="55" y2="106" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>';
     brows    = '';
-    mouth    = '<path d="M39" +
-    " y1="116" x2="38" y2="116" stroke="#444" stroke-width="2" stroke-linecap="round"/>'; // placeholder, fixed below
     mouth    = '<path d="M39 116 Q44 112 50 116 Q56 120 61 114" fill="none" stroke="#444" stroke-width="2" stroke-linecap="round"/>';
     extras   = '<path d="M78 76 Q83 68 79 62" fill="none" stroke="#88aa44" stroke-width="1.5" stroke-linecap="round" opacity="0.65"/><path d="M84 82 Q90 73 86 66" fill="none" stroke="#88aa44" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>';
-    // brown spots on flesh
     fl = '#888844';
     extras += '<ellipse cx="38" cy="88" rx="6" ry="4" fill="#5a4a20" opacity="0.65"/><ellipse cx="60" cy="100" rx="4" ry="3" fill="#5a4a20" opacity="0.55"/>';
   }
 
   return '<svg viewBox="0 0 100 136" width="150" xmlns="http://www.w3.org/2000/svg">'
     + '<ellipse cx="50" cy="86" rx="40" ry="52" fill="'+bg+'"/>'
-    + '<ellipse cx="38" cy="60" rx="18" ry="23" fill="'+bg+'" opacity="0.0"/>'
     + '<ellipse cx="50" cy="94" rx="29" ry="38" fill="'+fl+'"/>'
     + '<ellipse cx="50" cy="108" rx="19" ry="20" fill="'+pt+'"/>'
     + leftEye + rightEye + brows + mouth + extras
