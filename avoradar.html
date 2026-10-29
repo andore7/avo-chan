@@ -544,7 +544,8 @@ function analyzeFrame(ctx, w, h) {
     else if (v > 0.42) idx = 1;
     else idx = 2;
   } else if (h >= 20 && h < 50) {
-    idx = 3;
+    if (v > 0.50) idx = 3;
+    else idx = 2;
   } else if (h < 30 || h >= 330) {
     idx = (v < 0.25) ? 2 : 4;
   } else {
